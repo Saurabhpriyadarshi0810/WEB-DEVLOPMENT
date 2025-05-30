@@ -1,0 +1,53 @@
+    * {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    margin-top: 2.5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    height: 10vh;
+    width:70vw;
+    border: 2.5px solid black;
+    border-radius: 25px;
+    color: aqua;
+    background-color: aquamarine;
+}
+
+.nav ul{padding: 5px;
+padding-left: 20px;
+    display: flex;
+    
+}
+ul li{
+    font-size: 30px;
+    color: cyan;
+        list-style:none;
+padding-left :150px;
+padding-top:15px
+}
+
+body{
+    background-color: bisque;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black
+
+}
+.red{
+     margin-top: 2.5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    height: 20vh;
+    width:70vw;
+    border: 2.5px solid black;
+    border-radius: 25px;
+    color: black;
+    background-color: aquamarine;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 25px;
+}
