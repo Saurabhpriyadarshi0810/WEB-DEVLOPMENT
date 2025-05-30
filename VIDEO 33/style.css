@@ -4,11 +4,11 @@
 }
 
 .nav{
-    margin-top: 2.5vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    height: 10vh;
-    width:70vw;
+    margin-top: 2.5em;
+    margin-left: 15em;
+    margin-right: 15em;
+    height: 5em;
+    width:70em;
     border: 2.5px solid black;
     border-radius: 25px;
     color: aqua;
