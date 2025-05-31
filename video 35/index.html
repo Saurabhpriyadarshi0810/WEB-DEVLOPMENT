@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css selectors</title>
+    <style>
+        /* .boxes :first-child{
+    background-color: cadetblue;
+} */
+
+        /* .boxes :first-child:first-line{
+    background-color: aqua;
+} */
+        /* .boxes * {
+            background-color: aqua;
+            color: maroon;
+            font-size: 25px;
+            border: 2px solid black;
+            padding: 10cqh;
+        } */
+/* 
+        [data-color="prime"] {
+            background-color: blue;
+        } */
+
+        /* .boxes :nth-child(odd){
+            background-color: darkseagreen;
+        }
+         .boxes :nth-last-child(even){
+            background-color: darkorchid;
+         } */
+          .boxes:first-child::before{
+           content:"saurabh is a goood  boy"; 
+          }
+          .boxes:first-child::after{
+           content:"sigma course  is also goood  boy"; 
+          }
+          ::selection{
+            color  : red ;
+          }
+          .box::first-letter{
+            color :blue;
+            background-color: chartreuse;
+          }
+          input ::placeholder{
+            color: red ;
+          }
+           </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box" data-color="prime">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nam tenetur
+            quibusdam qui,
+            iusto reprehenderit veniam voluptatibus alias harum et ab officiis pariatur maiores fugit eligendi similique
+            aliquid magni labore. Ratione hic repudiandae doloremque iusto autem veniam in atque quidem cumque quae! Non
+            saepe vel, perspiciatis iusto deserunt neque? Ex.</div>
+        <div class="box">i am a box.</div>
+        <div class="box">i am a box.</div>
+
+    </div>
+    <input type="text"placeholder="enter your password">
+</body>
+
+</html>
