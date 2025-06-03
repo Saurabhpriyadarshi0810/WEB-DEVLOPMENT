@@ -1,58 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ex-8</title>
     <style>
-        *{
+        * {
             padding: 0px;
             margin: 0px;
 
         }
-        .container{
-            height: 80vh;
-            width: 80vw;
+
+        .container {
+            height: 100vh;
+            width: 100vw;
             background-color: aquamarine;
-            display: flex;
-            flex-direction: column-reverse;
+            position: relative;
         }
 
-        .ball{
+        .ball {
             height: 50px;
             width: 50px;
             background-color: red;
-            position: relative;
-            justify-self: flex-end;
+            position: absolute;
+            bottom: 0;
+            left: 0;
             border-radius: 50px;
-           /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-           animation: xaxis 5s ease-in-out 2s infinite normal , yaxis 5s ease-in-out 2s infinite normal;
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation:  yaxis 1s ease-out infinite alternate ,xaxis 3s linear  infinite normal;
         }
 
-@keyframes xaxis{
-    form{
+        @keyframes xaxis {
+            form {
+                left: 0%;
+            }
 
-    }
-    to{
-        transform: translateX(500px);
-    }
-}
+            to {
+                left: 100%;
+            }
+        }
 
-@keyframes yaxis{
-    form{
+        @keyframes yaxis {
+            form {
+                bottom: 0%;
+            }
 
-    }
-    to{
-        transform: translateY(-500px);
-    }
-}
-
-
+            to {
+                bottom: 80%
+            }
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="ball"></div>
     </div>
 </body>
+
 </html>
