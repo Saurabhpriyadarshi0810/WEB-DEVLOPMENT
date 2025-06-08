@@ -1,0 +1,37 @@
+.container{
+            height:80vh;
+            border:2px solid red;
+            /* it is  used to use flex box properties */
+            display: flex;
+            /* it is used to align-items across main axis */
+            justify-content: center; 
+            /* it is used to align-items across cross axis */
+            /* align-items: center; */
+            /* direction of  flex means arrangement  in general it is from left to right*/
+            flex-direction: row ;
+    
+            flex-wrap: wrap;
+            /* content is used when there is more  than one line  */
+            align-content: center;
+            /* gap:50px; */
+            /* gap is used to provide  between them */
+            gap:40px 20px;
+
+            flex-flow: row wrap;
+            /* there  is  no justify-item in flex box */
+        }
+        .item{
+            border:2px solid maroon;
+            /* flex-grow: 1; */
+            height:100px;
+            width:100px;
+            background-color:cyan;
+            text-align: center;
+            
+        }
+        .different{
+            order:4 ;
+            /* flex-grow: 2; */
+            flex-shrink: 2;
+            align-self: self-start;
+        }

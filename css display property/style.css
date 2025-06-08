@@ -1,0 +1,14 @@
+ .box {
+            color: blue;
+            background-color: rgb(162, 102, 23);
+            border:2px  solid red;
+            margin:25px;
+            display: inline-block;
+            padding: 45px;
+            width:350px;
+        }
+
+        /* .box1{
+            display: none;
+            visibility: hidden;
+        } */
