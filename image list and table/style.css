@@ -1,0 +1,10 @@
+td{
+    background-color: thistle;
+   border :1px solid green; 
+    padding: 8px;
+}
+tr{
+    border:5px solid green;
+    padding: 8px;
+    background-color: lightblue;
+}
