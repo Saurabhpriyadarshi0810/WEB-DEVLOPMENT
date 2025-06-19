@@ -1,0 +1,27 @@
+:root{
+--primarycolor:rgb(141, 48, 227);
+--secondarycolor:rgb(152, 116, 186);
+--textcolor: rgb(9, 246, 9) ;
+}
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;}
+
+ ul li{
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--textcolor)
+}
+nav{
+    background-color:var(--primarycolor);
+    height:3em;
+}
+body{
+    background-color: var(--secondarycolor);
+}

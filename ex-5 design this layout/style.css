@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    ;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 50px;
+    font-size: 35px;
+}
+
+.nav {
+    background-color: blueviolet;
+    position: sticky;
+    top: 0px;
+}
+
+.boxes {
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg);
+    margin: 24px;
+    width: 1465px;
+    height: 556px;
+    border: 2px solid white;
+    display: flex;
+}
+
+.box1 {
+    background-color: aquamarine;
+    border: 2px solid whitesmoke;
+    height: 500px;
+    width: 537px;
+    margin: 25px 50px 25px 100px;
+
+}
+
+.box2 {
+    background-color: cyan;
+    border: 2px solid whitesmoke;
+    height: 500px;
+    width: 537px;
+    margin: 25px 25px 25px 200px;
+}
+
+.box3 {
+    background-color: gray;
+    height: 15em;
+    border: 2px solid black;
+    border-radius: 57px;
+    margin: 23px;
+
+}
+
+.box3 p {
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 7px 3px 5px aqua;
+    padding-top: 5px;
+    font-size: 100px;
+}
+
+img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    /* float:right; */
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+
+}
+
+.foot {
+    height: 5em;
+    border: 2px solid black;
+    background-color: cadetblue;
+
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg);
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* element selector  */
+
+        /* div{
+            background-color: red;
+        } */
+
+        /* this is a class selector  */
+         .red{
+            background-color: red;
+         }
+
+         /* id selector */
+        #green {
+            background-color:green;
+         }
+
+         /* child selector */
+       div > p {
+            color : blue  ;
+            background-color : orange ;
+        }
+
+        /* descendent selector */
+       div p {
+            color: rgb(45, 31, 95);
+            background-color : rgb(220, 32, 173);
+        }
+
+        /* (*) is a universal selector */
+        *{
+            margin:0;
+            padding: 0; 
+        }
+
+        /* pseudo selector */
+        a:visited {
+            color : red;
+        }
+
+        a:link {
+            color: blueviolet;
+        }
+
+        a:active {
+            background-color: brown;
+        }
+
+        a:hover{
+            background-color : yellow;
+        }
+
+          p:first-child {
+            background-color : peru
+          }
+ 
+
+    </style>
+</head>
+<body>
+        <main class="one">
+            <p> i am saurabh</p>
+            <p> i am angel</p>
+            <p> i am archi</p>
+            <p> i am pratyush</p>
+            <p> i am shayan</p>
+        </main>
+
+
+
+    <div class="red">
+        i am a div
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae itaque debitis minima, voluptate numquam, eum cum quibusdam eos autem eveniet explicabo nesciunt aut?
+        </p>
+    </div>
+    
+        <div id="green">
+        <span>
+            <pre>
+                i am a another div
+            </pre>
+        </span>      
+    </div>
+
+    <div>
+        <article>
+            <p>
+                i am not a child of div
+            </p>
+        </article>
+    </div>
+
+    <div>
+        <a href="https://www.google.com" >go to google </a>
+    </div>
+
+    <div>
+        <a href="https://www.instagram.com" >go to instagram </a>
+    </div>
+
+    <div class="one">
+        <p>i am one </p>
+        <p> i am two</p>
+    </div>
+
+    
+
+
+</body>
+</html>

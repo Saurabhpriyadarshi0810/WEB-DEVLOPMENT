@@ -1,0 +1,40 @@
+.container {
+        border: 2px solid red;
+        height: 500px;
+        display: grid;
+        grid-template-areas: "nav nav nav silver "
+            "side article article silver "
+            "footer  footer footer silver  ";
+
+
+    }
+
+    .item {
+        font-size: 50px;
+        border: 5px solid black;
+    }
+
+    .item1 {
+        grid-area: footer;
+        background-color: magenta;
+    }
+
+    .item2 {
+        grid-area: side;
+        background-color: blue;
+    }
+
+    .item3 {
+        grid-area: nav;
+        background-color: burlywood;
+    }
+
+    .item4 {
+        grid-area: article;
+        background-color: chartreuse;
+    }
+
+    .item5 {
+        grid-area: silver;
+        background-color: crimson;
+    }
