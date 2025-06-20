@@ -35,6 +35,13 @@ function changeColor(a) {
   }
 }
 
+
+let p  = Math.random();
+console.log(p);
+let rang10 = changeColor(p);
+console.log(rang10);
+document.getElementsByClassName("box1")[0].style.color = rang10;
+
 let a  = Math.random();
 console.log(a);
 let rang1 = changeColor(a);
@@ -42,11 +49,27 @@ console.log(rang1);
 document.getElementsByClassName("box1")[0].style.backgroundColor = rang1;
 
 
+
+let q  = Math.random();
+console.log(q);
+let rang9 = changeColor(q);
+console.log(rang9);
+document.getElementsByClassName("box2")[0].style.color = rang9;
 let b  = Math.random();
 console.log(b);
 let rang2 = changeColor(b);
 console.log(rang2);
 document.getElementsByClassName("box2")[0].style.backgroundColor = rang2;
+
+
+
+
+
+let r  = Math.random();
+console.log(r);
+let rang8 = changeColor(r);
+console.log(rang8);
+document.getElementsByClassName("box3")[0].style.color = rang8;
 
 let c  = Math.random();
 console.log(c);
@@ -54,11 +77,26 @@ let rang3 = changeColor(c);
 console.log(rang3);
 document.getElementsByClassName("box3")[0].style.backgroundColor = rang3;
 
+
+let s  = Math.random();
+console.log(s);
+let rang7 = changeColor(s);
+console.log(rang7);
+document.getElementsByClassName("box4")[0].style.color = rang7;
+
+
 let d  = Math.random();
 console.log(d);
 let rang4 = changeColor(d);
 console.log(rang4);
 document.getElementsByClassName("box4")[0].style.backgroundColor = rang4;
+
+
+let t  = Math.random();
+console.log(t);
+let rang6 = changeColor(t);
+console.log(rang6);
+document.getElementsByClassName("box5")[0].style.color = rang6;
 
 let e  = Math.random();
 console.log(e);
